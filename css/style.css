@@ -139,22 +139,32 @@ body {
 }
 .products__item-heading {
     text-transform: uppercase;
-
 }
-/**/
+/*.card {
+    flex-direction: column;
+    display: flex;
+    background-color: #F8F8F8;
+}
+*/
+.products__item-price {
+    color: #F16D7F;
+}
 .produts__item-lowbutton {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
+    margin-top: 49px;
 }
 .menu{
+    margin-top: 95px;
     width: 100%;
     min-height: 341px;
     display: flex;
     background-color: var(--black-color);
-    justify-content: center;
     justify-content: space-around;
     align-items: center;
+}
+.menu__list-img{
+    display: flex;
 }
 .menu__list-text {
     color: #FBFBFB;;
