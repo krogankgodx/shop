@@ -88,6 +88,16 @@ body {
     min-height: 260px;
     background-image: url(../img/woman.jpg);
 }
+.stocks__item-text{
+    color: #FFFFFF;
+    text-transform:uppercase ;
+}
+.stocks__item-header {
+    color: #F16D7F;
+    text-transform: uppercase;
+    width: 154px;
+    min-height: 50px;
+}
 .stocks__item--men {
     width: 360px;
     min-height: 260px;
@@ -121,10 +131,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-transform: uppercase;
 }
 .products__text {
-    text-transform: uppercase;
     display: flex;
     flex-direction: row;
     justify-content: center;
