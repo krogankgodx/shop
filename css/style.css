@@ -45,7 +45,6 @@ body {
 .header__navigation {
     display: none;
 }
-
 .brand {
     display: flex;
 }
@@ -197,8 +196,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
-    
 }
 .secondfooter {
     min-height: 79px;
