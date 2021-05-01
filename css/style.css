@@ -198,6 +198,22 @@ body {
     min-height: 448px;
     background-image: url(../img/footer.jpg);
 }
+.footer__block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__list-headind {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.footer__list-text1 {
+    font-size: 20px;
+}
+.footer__enter-email {
+    width: 322px;
+    min-height: 49px;
+}
 .footer__list-img {
     margin-top: 86px;
 }
@@ -227,6 +243,9 @@ body {
     min-height: 148px;
     padding-top: 59px;
 }
+.registration__block {
+    width: 500px;
+}
 .regist__header {
     text-transform: uppercase;
     color: #F16D7F;
@@ -234,7 +253,6 @@ body {
 }
 .registration__main {
     display: flex;
-    justify-content: center;
 }
 .registration__header {
     margin-top: 35px;
@@ -259,17 +277,41 @@ body {
 }
 .registration__button {
     margin-top: 39px;
+    margin-bottom: 96px;
 }
 .registration__header-text {
-    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    position: relative;
+}
+.registration__header-text:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    left: -25px;
+    position: absolute;
+    left: -25px;
+    top: -1px;
+    background-image: url(../img/Vector.png);
+    background-size: 15px 15px;
 }
 .registration__text-block{
-    margin-bottom: 96px;
+    width: 652px;
+    min-height: 120px;
 }
 .registration__text {
     width: 359px;
     min-height: 32px;
+    Line-height: 16px;
+    font-size: 13px;
 }
-.registration__block-text {
-
+.registration__header-text-uppercase {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+.registration__header-text-header {
+    font-size: 24px;
+    margin-bottom: 22px;
 }
