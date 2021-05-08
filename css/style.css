@@ -45,7 +45,6 @@ body {
 .header__navigation {
     display: none;
 }
-
 .brand {
     display: flex;
 }
@@ -57,12 +56,24 @@ body {
     align-items: center;
 }
 .brand__heading {
+    position: relative;
     font-size: 48px;
     font-weight: 900;
     line-height: 58px;
     text-transform: uppercase;
 }
+.brand__heading:before {
+    content: '';
+    width: 12px;
+    height: 100px;
+    background: #F16D7F;
+    position: absolute;
+    left: -30px;
+    top: -1px;
+    background-size: 15px 15px;
+}
 .brand__heading--text {
+    display: flex;
     font-size: 37px;
     font-weight: 700;
     line-height: 44px;
@@ -139,53 +150,84 @@ body {
 }
 .products__item-heading {
     text-transform: uppercase;
-
 }
-/**/
+.card {
+    flex-direction: column;
+    display: flex;
+    background-color: #F8F8F8;
+}
+.products__item-price {
+    color: #F16D7F;
+}
 .produts__item-lowbutton {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
+    margin-top: 49px;
 }
 .menu{
+    margin-top: 95px;
     width: 100%;
     min-height: 341px;
     display: flex;
     background-color: var(--black-color);
-    justify-content: center;
     justify-content: space-around;
     align-items: center;
 }
-.menu__list-text {
-    color: #FBFBFB;;
-    margin: 16px 0 0 0 ;
+.menu__list {
+    width: 360px;
+    min-height: 420px;
+    flex-direction: row;
+    margin-top: 104px;
+}
+.menu__list-img{
+    display: flex;
 }
 .menu__list-link {
     color: #FBFBFB;;
     margin: 25px 0 0 0 ;
 }
-.menu__list{
-    display: flex;
-    flex-direction: column;
+.menu__list-text {
+    color: #FBFBFB;;
+    margin: 16px 0 0 0 ;
 }
 .footer {
     width: 100%;
 }
-.footer__block {
+.footer__screen {
+    background-size: cover;
     min-height: 448px;
     background-image: url(../img/footer.jpg);
 }
-.footer__list-img {
+.footer__block{
     display: flex;
+    justify-content: space-around;
     align-items: center;
+}
+.footer__list-headind {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.footer__list-text1 {
+    font-size: 20px;
+}
+.footer__enter-email {
+    width: 322px;
+    min-height: 49px;
+}
+.footer__list-img {
+    margin-top: 86px;
+}
+.footer__list-text {
+    width: 359px;
+    min-height: 99px;
 }
 .secondfooter {
     min-height: 79px;
-    width: 100%;
     background-color: var(--black-color);
     
 }
 .secondfooter__text {
+    padding-top: 30px;
     color: #FBFBFB;
 }
 .secondfooter__links {
@@ -193,4 +235,83 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+/*registration*/
+.regist {
+    width: 100%;
+    background-color: #F8F3F4;
+    min-height: 148px;
+    padding-top: 59px;
+}
+.registration__block {
+    width: 500px;
+}
+.regist__header {
+    text-transform: uppercase;
+    color: #F16D7F;
+    font-size: 24px;
+}
+.registration__main {
+    display: flex;
+}
+.registration__header {
+    margin-top: 35px;
+    width: 300;
+}
+.registration__name {
+    margin-top: 20px;
+    padding: 10px 45px;
+}
+.registration__lastname {
+    margin-top: 20px;
+    padding: 10px 45px;
+}
+.registration__radio {
+    margin-top: 31px;
+}
+.registration__radio-email {
+    font-size: 11px;
+}
+.registration__text {
+    margin-top: 15px;
+}
+.registration__button {
+    margin-top: 39px;
+    margin-bottom: 96px;
+}
+.registration__header-text {
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    position: relative;
+}
+.registration__header-text:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    left: -25px;
+    position: absolute;
+    left: -25px;
+    top: -1px;
+    background-image: url(../img/Vector.png);
+    background-size: 15px 15px;
+}
+.registration__text-block{
+    width: 652px;
+    min-height: 120px;
+}
+.registration__text {
+    width: 359px;
+    min-height: 32px;
+    Line-height: 16px;
+    font-size: 13px;
+}
+.registration__header-text-uppercase {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+.registration__header-text-header {
+    font-size: 24px;
+    margin-bottom: 22px;
 }
