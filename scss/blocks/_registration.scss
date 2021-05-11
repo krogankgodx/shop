@@ -1,0 +1,84 @@
+.regist {
+    width: 100%;
+    background-color: #F8F3F4;
+    min-height: 148px;
+    padding-top: 59px;
+}
+.registration__block {
+    width: 500px;
+}
+.regist__header {
+    text-transform: uppercase;
+    color: #F16D7F;
+    font-size: 24px;
+}
+.registration__main {
+    display: flex;
+}
+.registration__header {
+    margin-top: 35px;
+    width: 300;
+}
+.registration__name {
+    margin-top: 20px;
+    padding: 10px 45px;
+}
+.registration__lastname {
+    margin-top: 20px;
+    padding: 10px 45px;
+}
+.registration__radio {
+    margin-top: 31px;
+}
+.registration__radio-email {
+    font-size: 11px;
+}
+.registration__text {
+    margin-top: 15px;
+}
+.registration__button {
+    width: 160px;
+    height: 50px;
+    background-color: #F16D7F;
+    border: solid 0px white;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 39px;
+    margin-bottom: 96px;
+}
+.registration__header-text {
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    position: relative;
+}
+.registration__header-text:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    left: -25px;
+    position: absolute;
+    left: -25px;
+    top: -1px;
+    background-image: url(../img/Vector.png);
+    background-size: 15px 15px;
+}
+.registration__text-block{
+    width: 652px;
+    min-height: 120px;
+}
+.registration__text {
+    width: 359px;
+    min-height: 32px;
+    Line-height: 16px;
+    font-size: 13px;
+}
+.registration__header-text-uppercase {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+.registration__header-text-header {
+    font-size: 24px;
+    margin-bottom: 22px;
+}
