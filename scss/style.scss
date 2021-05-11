@@ -1,3 +1,11 @@
 @import './variables';
+@import './mixins';
+@import './reset';
 @import './general';
-@import './reset.scss';
+@import './blocks/header';
+@import './blocks/brand';
+@import './blocks/stocks';
+@import './blocks/products';
+@import './blocks/menu';
+@import './blocks/footer';
+@import './blocks/registration';

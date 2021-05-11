@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">    
+    <title>Cart</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper container">
+            <div>
+                <img class="header__logo1" src="./img/logo1.svg" alt="logo1" width="44" height="38">
+                <img class="header__loope" src="./img/loope.svg" alt="loope" width="26" height="27">
+            </div>
+            <div>
+                <button class="header__menu-button" type="button"><img src="./img/burger.svg" alt="burger" width="32" height="23"></button>
+                <a class="header__link" href="#"><img src="./img/piple.svg" alt="piple" width="29" height="29"></a>
+                <a class="header__link" href="#"><img src="./img/basket.svg" alt="basket" width="32" height="29"></a>\
+                <nav class="header__navigation" >
+                <h2 class="header__navigation-title" >menu</h2>
+                    <ul class="header__navigation-list" >
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">man</a>
+                            <ul class="navigation-item__sublist">
+                                <li class="navigation-item__sublist-link" ><a href="#">Accessories</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Bags</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Denim</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">T-Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navigation-item navigation-item" >
+                            <a class="navigation-item__link" href="#">woman</a>
+                            <ul>
+                                <li class="navigation-item__sublist-link" ><a href="#">Accessories</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Jackets & Coats</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Polos</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">kids</a>
+                            <ul>
+                                <li class="navigation-item__sublist-link" ><a href="#">Accessories</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Jackets & Coats</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Polos</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Shirts</a></li>
+                                <li class="navigation-item__sublist-link" ><a href="#">Bags</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="regist">
+            <h1 class="regist__header container">shopping cart</h1>
+        </section>
+        <div class="cart container">
+            <div class="cart__list">
+                <div class="cart__list-block">
+                    <img src="./img/cartmen1.jpg" alt="cartmen1" width="262" height="306">
+                    <div class="cart__list-description">
+                    <h3 class="cart__header">mango  people <span> t-shirt</span></h3>
+                    <ul class="cart__list-price">
+                        <li class="cart__list-stats">Price: $300</li>
+                        <li class="cart__list-stats">Color: Red</li>
+                        <li class="cart__list-stats">Size: Xl</li>
+                        <li class="cart__list-stats">Quantity:</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="cart__list-block">
+                    <img src="./img/cartmen2.jpg" alt="cartmen2" width="262" height="306">
+                    <div class="cart__list-description">
+                    <h3 class="cart__header">mango  people  t-shirt</h3>
+                    <ul class="cart__list-price">
+                        <li class="cart__list-stats">Price: $300</li>
+                        <li class="cart__list-stats">Color: Red</li>
+                        <li class="cart__list-stats">Size: Xl</li>
+                        <li class="cart__list-stats">Quantity:</li>
+                    </ul>
+                </div>
+                </div>
+                <div>
+                    <h3>shipping adress</h3>
+                    <input type="text" placeholder="Bangladesh">
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Postcode / Zip">
+                    <button type="button">get a quote</button>
+                </div>
+                <div>
+                    <p>sub total</p>
+                    <p>grand total</p>
+                    <hr width="275">
+                    <button type="button">proceed to checkout</button>
+                </div>
+                <button type="button">clear shopping cart</button>
+                <button type="button">continue shopping</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__first ">
+                <div class="footer__screen">
+                    <div class="footer__block container">
+                        <div class="footer__list-block">
+                        <img class="footer__list-img " src="./img/facefooter.png" alt="facefooter" width="96" height="96">
+                        <p class="footer__list-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                        </div>
+                        <div class="footer__stock">
+                            <h2 class="footer__list-headind">subscribe</h2>
+                            <h3 class="footer__list-text1">for our newletter and promotion</h3>
+                            <input class="footer__enter-email" type="email" placeholder="Enter you email" required>
+                            <button class="footer__button" type="button">subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondfooter">
+                    <div class="secondfooter__all-item container">
+                    <p class="secondfooter__text ">© 2021  Brand  All Rights Reserved.</p>
+                    <div class="secondfooter__links">
+                        <a href="#"><img src="./img/logofacbook1.svg" alt="logofacbook1" width="32" height="32"></a>
+                        <a href="#"><img src="./img/logoinst.svg" alt="logoinst" width="32" height="32"></a>
+                        <a href="#"><img src="./img/logop.svg" alt="logop" width="32" height="32"></a>
+                        <a href="#"><img src="./img/logotwitter.svg" alt="logotwitter" width="32" height="32"></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </footer>
+</body>

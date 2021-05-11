@@ -1,0 +1,23 @@
+@mixin flex-center-space-between() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-block-space-flex() {
+    display: flex;
+}
+@mixin flex-stocks-space-flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-menu-space-flex() {
+    display: flex;
+    justify-content: center;
+}
+@mixin flex-footer-space-flex() {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
