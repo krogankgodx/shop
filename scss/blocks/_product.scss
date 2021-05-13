@@ -1,12 +1,14 @@
 .product__item {
-    margin-right: 30px;
+    margin-right: 40px;
     background-color: #F8F8F8;
 }
 .product__card {
     margin-top: 48px;
     display: flex;
-    width: 360;
-    min-height: 420;
+}
+.products__list {
+    display: grid;
+    grid-template-columns: repeat(3, 400px)
 }
 .products__item-text {
     margin: 12px 28px 0 16px;
@@ -33,6 +35,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 48px;
 }
 .products__item-heading {
     margin: 25px 0 0 18px;
@@ -55,4 +58,10 @@
 .product__button {
     display: flex;
     justify-content: center;
+}
+@media (max-width: $desktop-width){
+    .products__list {
+        display: grid;
+        grid-template-columns: repeat(2, 400px)
+    }
 }
