@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <title>Shop</title>
 </head>
 <body>
@@ -19,10 +18,10 @@
                 <img class="header__loope" src="./img/loope.svg" alt="loope" width="26" height="27">
             </div>
             <div>
-                <button class="header__menu-button" type="button"><img src="./img/burger.svg" alt="burger" width="32" height="23"></button>
-                <a class="header__link" href="#"><img src="./img/piple.svg" alt="piple" width="29" height="29"></a>
+                <button id="burger" class="header__menu-button" type="button"><img src="./img/burger.svg" alt="burger" width="32" height="23"></button>
+                <a class="header__link" href="./regisration.html"><img src="./img/piple.svg" alt="piple" width="29" height="29"></a>
                 <a class="header__link" href="#"><img src="./img/basket.svg" alt="basket" width="32" height="29"></a>\
-                <nav class="header__navigation" >
+                <nav id="menu" class="header__navigation" >
                 <h2 class="header__navigation-title" >menu</h2>
                     <ul class="header__navigation-list" >
                         <li class="header__navigation-item navigation-item">
@@ -53,6 +52,7 @@
                                 <li class="navigation-item__sublist-link" ><a href="#">T-Shirts</a></li>
                                 <li class="navigation-item__sublist-link" ><a href="#">Shirts</a></li>
                                 <li class="navigation-item__sublist-link" ><a href="#">Bags</a></li>
+                                <div class="wrp" id="wrp"></div>
                             </ul>
                         </li>
                     </ul>
@@ -64,8 +64,9 @@
         <section class="brand">
             <img class="brand__image" src="./img/menofmenu.jpg" alt="menofmenu" width="800" height="764" >
             <div class="brand__heading-wrapper">
-                <h1 class="brand__heading">the brand<span class="brand__heading--text">of luxerious <span class="brand__heading-text-pink"> fashion</span></h1>
+                <h1 class="brand__heading">the brand<span class="brand__heading--text">of luxerious</span><span class="brand__heading-text-pink">fashion</span></h1>
             </div>
+            
         </section>
         <section class="stocks container">
             <h2 class="visually-hidden">Stocks</h2>
@@ -146,7 +147,6 @@
                 <div class="product__button">
                 <button type="button" class="button">Browse All Product</button>
                 </div>
-            
         </section>
         <ul class="menu ">
         <div class="menu__list-cont container">
@@ -165,6 +165,7 @@
                 <p class="menu__list-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p></li>
         </div>
         </ul>
+        <script src="./js/add.js"></script>
     </main>
     <footer class="footer">
         <div class="footer__first ">

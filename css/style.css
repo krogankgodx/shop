@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "lato";
+  src: url(/fonts/lato-bold.woff) format("woff"), url(/fonts/lato-bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(/fonts/lato-light.woff) format("woff"), url(/fonts/lato-light.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(/fonts/lato-regular.woff) format("woff"), url(/fonts/lato-regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(/fonts/lato-italic.woff) format("woff"), url(/fonts/lato-italic.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -148,9 +176,11 @@ body {
 }
 
 .brand .brand__heading {
+  font-family: "lato";
   position: relative;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 700;
+  font-style: normal;
   line-height: 58px;
   text-transform: uppercase;
 }
@@ -167,15 +197,18 @@ body {
 }
 
 .brand .brand__heading--text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  font-family: "lato";
+  margin-left: 5px;
   font-size: 37px;
   font-weight: 700;
   line-height: 44px;
 }
 
 .brand .brand__heading-text-pink {
+  font-family: "lato";
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 37px;
   color: #F16D7F;
 }
 
@@ -375,6 +408,12 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .products__list {
+    display: block;
+  }
+}
+
 .menu {
   margin-top: 95px;
   width: 100%;
@@ -536,6 +575,18 @@ body {
   .footer .footer__enter-email {
     width: 200px;
   }
+  .footer .footer__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__stock {
+    margin-top: 48px;
+  }
 }
 
 .regist {
@@ -545,50 +596,49 @@ body {
   padding-top: 59px;
 }
 
-.regist .registration__block {
-  width: 500px;
-}
-
-.regist .regist__header {
-  text-transform: uppercase;
-  color: #F16D7F;
-  font-size: 24px;
-}
-
-.regist .registration__main {
+.registration__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.regist .registration__header {
-  margin-top: 35px;
+.regist__header {
+  text-transform: uppercase;
+  color: #F16D7F;
+  font-size: 24px;
+}
+
+.registration__main {
+  margin-top: 64px;
+}
+
+.registration__header {
   width: 300;
 }
 
-.regist .registration__name {
+.registration__name {
   margin-top: 20px;
   padding: 10px 45px;
 }
 
-.regist .registration__lastname {
+.registration__lastname {
   margin-top: 20px;
   padding: 10px 45px;
 }
 
-.regist .registration__radio {
+.registration__radio {
   margin-top: 31px;
 }
 
-.regist .registration__radio-email {
+.registration__radio-email {
   font-size: 11px;
 }
 
-.regist .registration__text {
+.registration__text {
   margin-top: 15px;
 }
 
-.regist .registration__button {
+.registration__button {
   width: 160px;
   height: 50px;
   background-color: #F16D7F;
@@ -599,14 +649,14 @@ body {
   margin-bottom: 96px;
 }
 
-.regist .registration__header-text {
+.registration__header-text {
   font-size: 24px;
   margin-bottom: 16px;
   margin-left: 5px;
   position: relative;
 }
 
-.regist .registration__header-text:before {
+.registration__header-text:before {
   content: '';
   width: 15px;
   height: 15px;
@@ -618,26 +668,44 @@ body {
   background-size: 15px 15px;
 }
 
-.regist .registration__text-block {
-  width: 652px;
-  min-height: 120px;
+.registration__block-text {
+  margin-left: 128px;
 }
 
-.regist .registration__text {
+.registration__text {
   width: 359px;
   min-height: 32px;
-  Line-height: 16px;
   font-size: 13px;
 }
 
-.regist .registration__header-text-uppercase {
+.registration__header-text-uppercase {
   text-transform: uppercase;
   font-size: 24px;
   margin-bottom: 22px;
 }
 
-.regist .registration__header-text-header {
+.registration__header-text-header {
   font-size: 24px;
   margin-bottom: 22px;
+}
+
+.registration__radio-email {
+  margin-top: 32px;
+}
+
+.registration__header-second {
+  margin-top: 35px;
+}
+
+@media (max-width: 1599px) {
+  .registration__header-text {
+    font-size: 16px;
+  }
+  .registration__header-text-uppercase {
+    font-size: 16px;
+  }
+  .registration__header-text-header {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

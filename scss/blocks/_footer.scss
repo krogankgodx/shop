@@ -67,6 +67,13 @@
         .footer__enter-email {
             width: 200px;
         }
+        .footer__block{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer__stock {
+            margin-top: 48px;
+        }
         
     }
 }
