@@ -18,3 +18,9 @@
 .header__navigation {
     display: none;
 }
+@media (max-width:$desktop-width){
+    .header__link {
+        margin: 0 0 0 22px;
+    }
+}
+
