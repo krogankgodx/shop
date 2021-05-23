@@ -1,8 +1,8 @@
-.product__item {
+.products__item {
     margin-right: 40px;
     background-color: #F8F8F8;
 }
-.product__card {
+.products__card {
     margin-top: 48px;
     display: flex;
 }
@@ -17,7 +17,7 @@
     text-align: left;
     font-size: 14px;
 }
-.product__item-button {
+.products__item-button {
     width: 138px;
     height: 43px;
     border: solid 1px white;
@@ -55,7 +55,7 @@
     border: solid 1px #FF6A6A;
     color: #F26376;
 }
-.product__button {
+.products__button {
     display: flex;
     justify-content: center;
 }

@@ -87,6 +87,9 @@
     margin-top: 35px;
 }
 @media (max-width: $desktop-width){
+    .container {
+        width: 736px;
+        }
     .registration__header-text {
         font-size: 16px;
     }
@@ -96,8 +99,10 @@
     .registration__header-text-header {
         font-size: 16px;
     }
+    .footer__stock {
+        margin-bottom: 140px;
+    }
+
 }
 
-@media (max-width: $tablet-width){
-    }
 

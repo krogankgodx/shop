@@ -196,7 +196,7 @@ body {
   background-size: 15px 15px;
 }
 
-.brand .brand__heading--text {
+.brand .brand__heading-text {
   font-family: "lato";
   margin-left: 5px;
   font-size: 37px;
@@ -305,12 +305,12 @@ body {
   }
 }
 
-.product__item {
+.products__item {
   margin-right: 40px;
   background-color: #F8F8F8;
 }
 
-.product__card {
+.products__card {
   margin-top: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,7 +332,7 @@ body {
   font-size: 14px;
 }
 
-.product__item-button {
+.products__item-button {
   width: 138px;
   height: 43px;
   border: solid 1px white;
@@ -390,7 +390,7 @@ body {
   color: #F26376;
 }
 
-.product__button {
+.products__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -698,6 +698,9 @@ body {
 }
 
 @media (max-width: 1599px) {
+  .container {
+    width: 736px;
+  }
   .registration__header-text {
     font-size: 16px;
   }
@@ -706,6 +709,9 @@ body {
   }
   .registration__header-text-header {
     font-size: 16px;
+  }
+  .footer__stock {
+    margin-bottom: 140px;
   }
 }
 /*# sourceMappingURL=style.css.map */
