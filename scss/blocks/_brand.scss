@@ -12,9 +12,11 @@
         align-items: center;
     }
     .brand__heading {
+        font-family: "lato";
         position: relative;
         font-size: 48px;
-        font-weight: 900;
+        font-weight: 700;
+        font-style: normal;
         line-height: 58px;
         text-transform: uppercase;
     }
@@ -29,12 +31,17 @@
         background-size: 15px 15px;
     }
     .brand__heading--text {
-        display: flex;
+        font-family: "lato";
+        margin-left: 5px;
         font-size: 37px;
         font-weight: 700;
         line-height: 44px;
     }
     .brand__heading-text-pink {
+        font-family: "lato";
+        margin-left: 5px;
+        font-weight: 700;
+        font-size: 37px;
         color: #F16D7F;
     }
     @media (max-width: $desktop-width){
