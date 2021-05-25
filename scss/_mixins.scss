@@ -21,10 +21,6 @@
     text-align: center;
     align-items: center;
 }
-@mixin name {
-    
-}
-
 @mixin tablet {
     @media (max-width: $desktop-width){
         @content;
