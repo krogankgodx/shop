@@ -4,7 +4,11 @@
     min-height: 341px;
     background-color: $black-color;
     .menu__list-cont {
-        @include flex-menu-space-flex();
+        display: grid;
+        grid-template-columns: repeat(3, 400px)
+    }
+    .menu__list-img {
+        
     }
     .menu__list {
         width: 360px;

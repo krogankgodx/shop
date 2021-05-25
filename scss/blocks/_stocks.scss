@@ -14,15 +14,20 @@
         background-image: url(../img/woman.jpg);
     }
     .stocks__item-text{
+        font-family: "lato";
+        font-weight: 400;
+        font-style: normal;
         text-align: center;
         color: #FFFFFF;
         text-transform:uppercase ;
     }
     .stocks__item-header {
+        font-family: "lato";
         text-align: center;
         color: #F16D7F;
         line-height: 29px;
-        width: 400;
+        width: 700;
+        font-style: normal;
         font-size: 24px;
         text-transform: uppercase;
         width: 154px;
